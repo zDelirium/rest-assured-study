@@ -45,7 +45,6 @@
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
             <version>20211205</version>
-<!--            <type>bundle</type>-->
         </dependency>
     </dependencies>
 
