@@ -16,6 +16,8 @@ pipeline {
       stage('Build') {
          steps {
             sh 'mvn clean verify'
+            junit 'target/surefire-reports/*.xml'
+            // Nothing to cover, so no coverage report!
          }
       }
    }
